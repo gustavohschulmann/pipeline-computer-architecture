@@ -1,0 +1,10 @@
+addi $t1, $t0, 1  #end 0
+addi $t2, $t0, 2  #end 4
+addi $t3, $t0, 10 #end 8
+beq  $t0, $t3, 5  #end 12
+addi $t1, $t0, 1  #end 16
+addi $t2, $t0, 1  #end 20
+subi $t3, $t3, 1  #end 24
+b -4			  #end 28
+nop				  #end 32		
+
